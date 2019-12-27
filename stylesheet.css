@@ -1,13 +1,5 @@
 #H1 {
-	width:15px;
-	height:35px;
-	background: #87CEFA;
-	transition: width 3s;
-	-webkit-transition: width 3s;
-}
-
-#H1:hover {
-	width: 300px;
+	text-align: center;
 }
 
 .viewable-image {
@@ -23,7 +15,7 @@
 	height: 464px;
 	position: relative;
 	transition: left 1s;
-	-webkit-transition; left 1s;
+	-webkit-transition: left 1s;
 
 }
 
@@ -31,4 +23,30 @@
 	float: left;
 	margin: 0px;
 	padding: 0px;
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: auto;
+}
+
+ul {
+	list-style: none;
+	padding: 0 0 0 0;
+}
+
+li {
+	display: inline-block;
+}
+
+#logos {
+	width: 248px;
+	display: block;
+	margin: auto;
+}
+
+body {
+	font-family: 'Playfair Display SC', serif;
 }
