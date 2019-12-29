@@ -1,6 +1,9 @@
 #H1 {
 	text-align: center;
 	font-size: 35px;
+	padding: 0px;
+	margin: 0px;
+	display: inline;
 }
 
 .viewable-image {
@@ -22,15 +25,44 @@
 
 .slider-image {
 	float: left;
-	margin: 0px;
+	margin-top: 20px;
 	padding: 0px;
 }
 
 .logo {
-	width: 80px;
-	height: 80px;
+	width: 70px;
+	height: 70px;
 	display: block;
 	margin: auto;
+	-webkit-transition: .8s ease-in-out;
+	transition: .8s ease-in-out;
+}
+
+.logo:hover {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+#fccsvg:hover {
+	animation: shake 0.8s !important;
+}
+
+@keyframes shake {
+	0% {
+		transform: rotate(1deg) translate (1px,1px);
+	}
+	25% {
+		transform: rotate(-1deg) translate (-1px,-1px);
+	}
+	50% {
+		transform: rotate(1deg) translate (-1px,1px);
+	}
+	75% {
+		transform: rotate(-1deg) translate (1px,-1px);
+	}
+	100% {
+		transform: rotate(1deg) translate (-1px,2px);
+	}
 }
 
 ul {
@@ -43,8 +75,9 @@ li {
 }
 
 #logos {
-	width: 248px;
-	display: block;
+	width: 436px;
+	display: flex;
+	justify-content: space-around;
 	margin: auto;
 }
 
