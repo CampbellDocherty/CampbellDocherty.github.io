@@ -63,3 +63,13 @@ li {
 body {
 	font-family: 'Playfair Display SC', serif;
 }
+
+.paragraph {
+	text-align: justify;
+	font-family: 'Playfair Display', serif !important;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
