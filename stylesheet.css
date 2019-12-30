@@ -34,8 +34,8 @@
 	height: 70px;
 	display: block;
 	margin: auto;
-	-webkit-transition: .8s ease-in-out;
-	transition: .8s ease-in-out;
+	-webkit-transition: 3.5s ease-in-out;
+	transition: 3.5s ease-in-out;
 }
 
 .logo:hover {
@@ -67,9 +67,9 @@ body {
 .paragraph {
 	text-align: justify;
 	font-family: 'Playfair Display', serif !important;
+	margin-top: 50px;
 	margin-left: 300px;
 	margin-right: 300px;
-	margin-top: 50px;
 	margin-bottom: 50px;
 	font-size: 20px;
 }
