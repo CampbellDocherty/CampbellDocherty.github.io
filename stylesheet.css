@@ -6,32 +6,9 @@
 	display: inline;
 }
 
-.viewable-image {
-	width: 700px;
-	height: 464px;
-	overflow: hidden;
-	margin: auto;
-	padding: auto;
-}
-
-.all-images {
-	width: 2100px;
-	height: 464px;
-	position: relative;
-	transition: left 1s;
-	-webkit-transition: left 1s;
-
-}
-
-.slider-image {
-	float: left;
-	margin-top: 20px;
-	padding: 0px;
-}
-
 .logo {
-	width: 70px;
-	height: 70px;
+	width: 50px;
+	height: 50px;
 	display: block;
 	margin: auto;
 	-webkit-transition: 1s ease-in-out;
@@ -55,7 +32,7 @@ li {
 }
 
 #logos {
-	width: 436px;
+	width: 316px;
 	display: block;
 	margin: auto;
 }
@@ -72,4 +49,19 @@ body {
 	margin-right: 300px;
 	margin-bottom: 50px;
 	font-size: 20px;
+}
+
+.dot {
+	cursor: pointer;
+	text-align: center;
+	height: 16px;
+	width: 16px;
+	background-color: black;
+	display: inline-block;
+	border-radius: 50%;
+	transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+	background-color: gray;
 }
