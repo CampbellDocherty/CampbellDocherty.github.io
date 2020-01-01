@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+		<script src="script.js" defer></script>
 	</head>
 	<body>
 	<div id="H1"><h1>Campbell Docherty</h1></div>
@@ -39,20 +40,12 @@
 			 started to grasp the underlying mechanisms of JavaScript. I think I would be a good fit for 
 			 Founders and Coders in this regard as well.
 		</p>
-		<div class = "viewable-image">
-			<span id="carousel-image-1"></span>
-		    <span id="carousel-image-2"></span>
-			<span id="carousel-image-3"></span> 
-			<div class="all-images">
-				<img src="images/On The Rocks.jpg" alt="My friends standing on the rocks" class="carousel-image">
-				<img src="images/Leaning On.jpg" alt="Remi leaning on a BIG rock" class="carousel-image">
-				<img src="images/Rock Pool.jpg" alt="A man made rock pool" class="carousel-image"> 
-			</div>
-			<div class="nav-container">
-				<a href="#carousel-image-1" class="nav-button"></a>
-				<a href="#carousel-image-2" class="nav-button"></a>
-				<a href="#carousel-image-3" class="nav-button"></a>
-			</div>
+		<div id="slides-container">
+			<img class="slides" src="images/Leaning On.jpg">
+			<img class="slides" src="images/On The Rocks.jpg">
+			<img class="slides" src="images/Rock Pool.jpg">
+			<button onclick="change_slide(-1)">&#10094;</button>
+			<button onclick="change_slide(1)">&#10095;</button>
 		</div>
 	</body>
 </html>
