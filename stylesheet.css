@@ -51,17 +51,26 @@ body {
 	font-size: 20px;
 }
 
-.dot {
-	cursor: pointer;
+.viewable-image {
+	width: 700px;
+	height: 464px;
+	margin: auto;
+	overflow: hidden;
 	text-align: center;
-	height: 16px;
-	width: 16px;
-	background-color: black;
-	display: inline-block;
-	border-radius: 50%;
-	transition: background-color 0.6s ease;
+	margin-bottom: 50px !important;
 }
 
-.dot:hover {
-	background-color: gray;
+.all-images {
+	width: 2100px;
+	height: 464px;
+	position: relative;
+	transition: left 2s;
+	-webkit-transition: left 2s;
 }
+
+.carousel-image {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
