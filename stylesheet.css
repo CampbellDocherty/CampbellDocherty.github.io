@@ -64,8 +64,8 @@ body {
 	width: 2100px;
 	height: 464px;
 	position: relative;
-	transition: left 2s;
-	-webkit-transition: left 2s;
+	transition: left 1.5s;
+	-webkit-transition: left 1.5s;
 }
 
 .carousel-image {
@@ -74,3 +74,33 @@ body {
 	padding: 0px;
 }
 
+.nav-container {
+	top: -30px;
+	position: relative;
+}
+
+.nav-button {
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	margin: 4px;
+	background-color: burlywood;
+	transition: background-color 0.5s ease;
+}
+
+.nav-button:hover {
+	background-color: cadetblue;
+}
+
+#carousel-image-1:target ~ .all-images {
+	left: 0px;
+}
+
+#carousel-image-2:target ~ .all-images {
+	left: -700px;
+}
+
+#carousel-image-3:target ~ .all-images {
+	left: -1400px;
+}
