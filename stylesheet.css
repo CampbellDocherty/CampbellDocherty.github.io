@@ -44,10 +44,10 @@ body {
 .paragraph {
 	text-align: justify;
 	font-family: 'Playfair Display', serif !important;
-	margin-top: 50px;
-	margin-left: 300px;
-	margin-right: 300px;
-	margin-bottom: 50px;
+	margin-top: 50px !important;
+	margin-bottom: 50px !important;
+	width: 70%;
+	margin: auto;
 	font-size: 20px;
 }
 
@@ -58,6 +58,7 @@ body {
 	overflow: hidden;
 	text-align: center;
 	margin-bottom: 50px !important;
+	object-fit: cover;
 }
 
 .all-images {
