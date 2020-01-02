@@ -94,8 +94,6 @@ body {
 	font-weight: bold;
 	border-radius: 3px;
 	font-size: 23px;
-	/* display: none; */
-	/* transition: display 2s ease; */
 	-webkit-transition-property: color background-color;
 	-webkit-transition-duration: 0.7s;
     -webkit-transition-timing-function: ease;
